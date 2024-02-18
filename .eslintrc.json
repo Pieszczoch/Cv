@@ -1,0 +1,55 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:tailwindcss/recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "ignorePatterns": ["dist"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react",
+    "react-refresh",
+    "@tanstack/query",
+    "simple-import-sort",
+    "lingui",
+    "vitest",
+    "prettier"
+  ],
+  "rules": {
+    "react-refresh/only-export-components": "off",
+    "simple-import-sort/imports": [
+      "warn",
+      {
+        "groups": [["^react$"], ["^\\u0000"], ["use"], ["^@/"], ["^@ui/"]]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "no-console": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "^_" }
+    ]
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["cn", "clsx"]
+    }
+  }
+}
