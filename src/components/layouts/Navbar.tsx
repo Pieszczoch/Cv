@@ -9,7 +9,7 @@ const Navbar = () => {
       tabIndex={-1}
       className="fixed z-50 w-screen bg-[#1E1C1B] lg:static"
     >
-      <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between	">
+      <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between">
         <img src={image} width={60} className="bg-white-100" />
         <li className="list-none">
           <ul>
