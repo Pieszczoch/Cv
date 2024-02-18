@@ -1,5 +1,13 @@
+import React from 'react';
+
+import HeadSection from '@/components/ui/HeadSection';
+
 const MainPage = () => {
-  return <h1>hell no</h1>;
+  return (
+    <>
+      <HeadSection />
+    </>
+  );
 };
 
 export default MainPage;

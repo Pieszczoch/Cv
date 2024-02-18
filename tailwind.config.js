@@ -1,3 +1,5 @@
+import defaultTheme from 'tailwindcss/defaultTheme';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ['class'],
@@ -17,6 +19,14 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        default: ['Inter', ...defaultTheme.fontFamily.sans],
+        jakarta: ['Plus Jakarta Sans', ...defaultTheme.fontFamily.sans],
+        inter: ['Inter', ...defaultTheme.fontFamily.sans],
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
