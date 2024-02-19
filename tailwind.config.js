@@ -19,6 +19,9 @@ export default {
       },
     },
     extend: {
+      boxShadow: {
+        borderShadow: '0px 0px 30px 10px rgba(255, 255, 255, 1)',
+      },
       fontFamily: {
         default: ['Inter', ...defaultTheme.fontFamily.sans],
         jakarta: ['Plus Jakarta Sans', ...defaultTheme.fontFamily.sans],

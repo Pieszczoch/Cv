@@ -1,16 +1,10 @@
-import React from 'react';
 import ReactLogo from '@/assets/react-logo.png';
 
 const HeadSection = () => {
   return (
-    <section className="bg-[#1E1C1B] w-screen">
+    <section className="bg-[#14110f] w-screen relative">
+      <div className="absolute inset-0 shadow-borderShadow z-10 h-1 bg-[#14110f]" />
       <div className="flex justify-between gap-40 mx-auto items-center max-w-[1200px] py-20">
-        <img
-          src={ReactLogo}
-          alt="react-logo"
-          width={420}
-          className="animate-[spin_60s_linear_infinite]"
-        />
         <div className="flex flex-col gap-6">
           <h1 className="text-neutral-100 text-[48px] leading-[62px]">
             Welcom to my own website
@@ -22,6 +16,13 @@ const HeadSection = () => {
             dignissimos et! Ut nemo corporis rerum.
           </p>
         </div>
+
+        <img
+          src={ReactLogo}
+          alt="react-logo"
+          width={420}
+          className="animate-[spin_60s_linear_infinite]"
+        />
       </div>
     </section>
   );
