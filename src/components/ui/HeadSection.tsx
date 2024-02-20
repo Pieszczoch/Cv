@@ -2,7 +2,7 @@ import ReactLogo from '@/assets/react-logo.png';
 
 const HeadSection = () => {
   return (
-    <section className="bg-[#14110f] w-screen relative">
+    <section className="bg-[#14110f] w-full relative">
       <div className="absolute inset-0 shadow-borderShadow z-10 h-1 bg-[#14110f]" />
       <div className="flex justify-between gap-40 mx-auto items-center max-w-[1200px] py-20">
         <div className="flex flex-col gap-6">
