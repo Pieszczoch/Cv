@@ -1,5 +1,5 @@
 import { arrayContent } from '@/components/content/skillsContent';
-import CardCompoent from './components/card';
+import { CardSkill } from './components/cards';
 
 const Skills = () => {
   return (
@@ -8,7 +8,7 @@ const Skills = () => {
         <h2 className="text-slate-900 text-[72px] font-bold">Skills</h2>
         <div className="grid grid-cols-3 gap-[32px]">
           {arrayContent.map((item) => (
-            <CardCompoent content={item} />
+            <CardSkill content={item} />
           ))}
         </div>
       </div>
