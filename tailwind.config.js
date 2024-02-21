@@ -22,6 +22,7 @@ export default {
       boxShadow: {
         borderShadow: '0px 0px 30px 10px rgba(255, 255, 255, 1)',
         borderShadowInset: 'inset 0px 0px 30px 10px rgba(255, 255, 255, 1)',
+        light: '5px 9px 25px -10px rgba(255, 255, 255, 1)',
       },
       fontFamily: {
         default: ['Inter', ...defaultTheme.fontFamily.sans],
