@@ -2,7 +2,7 @@ import GigaChad from '@/assets/giga-chad.png';
 
 const AboutMe = () => {
   return (
-    <article className="bg-[#14110f] py-10">
+    <article className="bg-[#14110f] py-10" id="about-me">
       <div className="flex justify-center gap-10 max-w-[1200px] mx-auto items-center ">
         <img
           src={GigaChad}

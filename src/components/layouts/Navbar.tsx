@@ -15,9 +15,11 @@ const Navbar = () => {
           <ul>
             {content.map((item) => {
               return (
-                <Button variant="secondary" className="mx-3">
-                  {item.name}
-                </Button>
+                <a href={item.link}>
+                  <Button variant="secondary" className="mx-3">
+                    {item.name}
+                  </Button>
+                </a>
               );
             })}
           </ul>
