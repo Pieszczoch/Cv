@@ -5,15 +5,15 @@ export interface NavbarType {
 
 export const content: NavbarType[] = [
   {
-    name: 'sekcja1',
-    link: '#sekcja1',
+    name: 'About me',
+    link: '#about-me',
   },
   {
-    name: 'sekcja2',
-    link: '#sekcja2',
+    name: 'Skills',
+    link: '#skills',
   },
   {
-    name: 'sekcja3',
-    link: '#sekcja3',
+    name: 'Portfolio',
+    link: '#portfolio',
   },
 ];
