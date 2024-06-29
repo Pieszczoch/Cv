@@ -1448,6 +1448,29 @@ electron-to-chromium@^1.4.648:
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.656.tgz"
   integrity sha512-9AQB5eFTHyR3Gvt2t/NwR0le2jBSUNwCnMbUCejFWHD+so4tH40/dRLgoE+jxlPeWS43XJewyvCv+I8LPMl49Q==
 
+embla-carousel-auto-scroll@^8.1.5:
+  version "8.1.5"
+  resolved "https://registry.yarnpkg.com/embla-carousel-auto-scroll/-/embla-carousel-auto-scroll-8.1.5.tgz#4980459c05bc361485de89eac3f6294c28691b8e"
+  integrity sha512-LpU6Slbhrb+YzmsH9qi6J8Hde+vEq+oxIgO2zQkiVRfu2ImvOsenKZyd0ZDYj/YN/Mt+C4VVx5a2kCHXGYoXPA==
+
+embla-carousel-react@^8.1.5:
+  version "8.1.5"
+  resolved "https://registry.yarnpkg.com/embla-carousel-react/-/embla-carousel-react-8.1.5.tgz#64867a2812c0c5beb7fe215651ce1f8d9f4855d5"
+  integrity sha512-xFmfxgJd7mpWDHQ4iyK1Qs+5BTTwu4bkn+mSROKiUH9nKpPHTeilQ+rpeQDCHRrAPeshD67aBk0/p6FxWxXsng==
+  dependencies:
+    embla-carousel "8.1.5"
+    embla-carousel-reactive-utils "8.1.5"
+
+embla-carousel-reactive-utils@8.1.5:
+  version "8.1.5"
+  resolved "https://registry.yarnpkg.com/embla-carousel-reactive-utils/-/embla-carousel-reactive-utils-8.1.5.tgz#87475b9478a60c92be883bccecebbf4f180796f9"
+  integrity sha512-76uZTrSaEGGta+qpiGkMFlLK0I7N04TdjZ2obrBhyggYIFDWlxk1CriIEmt2lisLNsa1IYXM85kr863JoCMSyg==
+
+embla-carousel@8.1.5:
+  version "8.1.5"
+  resolved "https://registry.yarnpkg.com/embla-carousel/-/embla-carousel-8.1.5.tgz#d958083cb16f19e7412bf8f93fa125b21311ac93"
+  integrity sha512-R6xTf7cNdR2UTNM6/yUPZlJFRmZSogMiRjJ5vXHO65II5MoUlrVYUAP0fHQei/py82Vf15lj+WI+QdhnzBxA2g==
+
 emoji-regex@^10.3.0:
   version "10.3.0"
   resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.3.0.tgz"
