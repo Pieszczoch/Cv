@@ -5,7 +5,7 @@ const HeadSection = () => {
     <section className="bg-[#14110f] w-full relative">
       <div className="flex md:flex-row flex-col justify-between lg:gap-20 gap-8 md:gap-10 xl:gap-40 mx-auto items-center max-w-[1280px] px-4 md:px-10 py-20 md:py-20">
         <div className="flex flex-col gap-6">
-          <h1 className="text-neutral-100 text-3xl md:text-5xl">
+          <h1 className="text-neutral-100 text-3xl md:text-5xl animatedUnerline">
             Welcom to my own website
           </h1>
           <p className="text-lg lg:text-2xl text-neutral-100">
